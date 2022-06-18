@@ -1,0 +1,18 @@
+{
+  "name": "getuser-cli",
+  "version": "1.0.0",
+  "description": "CLI for get users who logged in with google",
+  "main": "getUserCLI.js",
+  "preferGlobal": true,
+  "bin": "./getUserCLI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bimo Dwi Laksono",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.4.0"
+  }
+}
