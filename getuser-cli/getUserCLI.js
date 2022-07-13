@@ -1,6 +1,8 @@
+#! /usr/bin/env node
 require("dotenv").config();
 const program = require("commander");
 const mongoose = require("mongoose");
+
 //Connect to Mongo
 const db = mongoose.connect(process.env.DATABASE);
 
